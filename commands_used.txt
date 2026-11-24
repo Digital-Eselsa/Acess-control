@@ -1,0 +1,70 @@
+# Commands Used — Linux Task 03
+
+Record the exact commands you personally executed, in order. Do not record passwords.
+
+## Initial checks
+# whoami
+# id
+# hostname
+# date
+
+## Part 1 — User setup
+# sudo useradd -m -s /bin/bash forensic01
+# sudo usermod -aG sudo forensic01
+# sudo passwd forensic01
+# getent passwd forensic01
+# id forensic01
+# ls -ld /home/forensic01
+# su - forensic01
+# whoami
+# pwd
+
+## Part 1 — Directory and log
+# mkdir -p /home/forensic01/logs
+# cd /home/forensic01/logs
+# [paste the cat here-document command used to create sys_events.log]
+# echo "..." >> sys_events.log
+# wc -l sys_events.log
+# cat sys_events.log
+
+## Part 2 — Log analysis
+# grep "ERROR" sys_events.log
+# grep -E "root|user01" sys_events.log
+# grep "ERROR" sys_events.log | less
+# grep "ERROR" sys_events.log > error_report.txt
+# cat error_report.txt
+# ls -l error_report.txt
+# wc -l error_report.txt
+# head -n 5 sys_events.log
+# tail -n 5 sys_events.log
+# cat sys_events.log
+
+## Part 3 — Permissions and ownership
+# echo "..." > confidential.txt
+# chmod 600 confidential.txt
+# ls -l confidential.txt
+# sudo chown root:root confidential.txt
+# ls -l confidential.txt
+# cat confidential.txt
+# echo "..." >> confidential.txt
+# sudo cat /home/forensic01/logs/confidential.txt
+
+## Part 4 — User management
+# exit
+# sudo useradd -m -s /bin/bash guest1
+# sudo useradd -m -s /bin/bash guest2
+# sudo usermod -aG sudo guest1
+# id guest1
+# getent passwd guest2
+# sudo userdel -r guest2
+# getent passwd guest2
+# ls -ld /home/guest2
+
+## Git commands (if publishing)
+# git init
+# git add .
+# git status
+# git commit -m "Document Linux Task 03 practical activity"
+# git branch -M main
+# git remote add origin YOUR_GITHUB_REPOSITORY_URL
+# git push -u origin main

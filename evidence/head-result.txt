@@ -1,0 +1,5 @@
+2026-11-24 08:00:01 INFO System boot initiated
+2026-11-24 08:00:05 INFO Network interface eth0 activated
+2026-11-24 08:01:12 INFO User user01 logged in successfully
+2026-11-24 08:02:30 WARNING High memory usage detected
+2026-11-24 08:03:45 ERROR Failed login attempt for user admin

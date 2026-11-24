@@ -1,0 +1,16 @@
+# Temporary/editor files
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Avoid committing private credentials or password files
+*.pem
+*.key
+.env
+.env.*
+
+# Generated local logs/reports can be reviewed before committing
+# Uncomment if you prefer not to track generated lab data:
+# evidence/**/*.log

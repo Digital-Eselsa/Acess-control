@@ -1,0 +1,5 @@
+2026-11-24 08:19:10 ERROR Failed to access protected directory
+2026-11-24 08:20:25 INFO User user01 logged out
+2026-11-24 08:21:40 WARNING Unusual login activity detected
+2026-11-24 08:22:55 INFO System security audit completed
+2026-11-24 08:23:30 ERROR Failed service restart

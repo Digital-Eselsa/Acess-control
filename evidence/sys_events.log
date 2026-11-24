@@ -1,0 +1,25 @@
+2026-11-24 08:00:01 INFO System boot initiated
+2026-11-24 08:00:05 INFO Network interface eth0 activated
+2026-11-24 08:01:12 INFO User user01 logged in successfully
+2026-11-24 08:02:30 WARNING High memory usage detected
+2026-11-24 08:03:45 ERROR Failed login attempt for user admin
+2026-11-24 08:04:10 INFO User root executed system update
+2026-11-24 08:05:22 WARNING Disk space running low
+2026-11-24 08:06:15 INFO Firewall service started
+2026-11-24 08:07:33 ERROR Unauthorized access attempt detected
+2026-11-24 08:08:40 INFO User user01 accessed home directory
+2026-11-24 08:09:55 WARNING Multiple failed login attempts detected
+2026-11-24 08:10:12 INFO SSH service is running
+2026-11-24 08:11:28 ERROR SSH authentication failed for root
+2026-11-24 08:12:45 INFO Antivirus scan completed
+2026-11-24 08:13:50 WARNING CPU usage exceeded 85 percent
+2026-11-24 08:14:05 INFO User root modified system configuration
+2026-11-24 08:15:19 ERROR Application crashed unexpectedly
+2026-11-24 08:16:30 INFO Backup process started
+2026-11-24 08:17:42 WARNING Suspicious network traffic detected
+2026-11-24 08:18:55 INFO Backup process completed successfully
+2026-11-24 08:19:10 ERROR Failed to access protected directory
+2026-11-24 08:20:25 INFO User user01 logged out
+2026-11-24 08:21:40 WARNING Unusual login activity detected
+2026-11-24 08:22:55 INFO System security audit completed
+2026-11-24 08:23:30 ERROR Failed service restart

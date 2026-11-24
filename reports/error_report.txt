@@ -1,0 +1,6 @@
+2026-11-24 08:03:45 ERROR Failed login attempt for user admin
+2026-11-24 08:07:33 ERROR Unauthorized access attempt detected
+2026-11-24 08:11:28 ERROR SSH authentication failed for root
+2026-11-24 08:15:19 ERROR Application crashed unexpectedly
+2026-11-24 08:19:10 ERROR Failed to access protected directory
+2026-11-24 08:23:30 ERROR Failed service restart
